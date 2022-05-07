@@ -1,0 +1,461 @@
+li {
+    list-style: none;
+  }
+  nav {
+      
+    display: flex;
+    gap: 20px;
+    
+    align-items: center;
+    background-color:blue;
+    justify-content: space-between;
+    font-style: italic;
+    color: crimson;
+  }
+  ul  {
+    display: flex;
+    align-items: center;
+  
+    gap: 20px;
+    font-size: 13px;
+  }
+  a{
+    color:limegreen;
+    text-decoration: none;
+    padding-right: 50px;
+    
+  }
+
+  .won1{
+    margin-top:-570px;
+    position: relative;
+    left: 400px;
+    color:rgb(238, 226, 226);
+    text-align: center;
+    font-size: 30px;
+    width:400px
+  }
+  .won1 p{
+      
+      color: white;
+      font-size: 20px;
+  }
+  .won1 button{
+    background-color:blueviolet;
+    color: white;
+    height: 60px;
+    width: 200px;
+    border-radius: 4px;
+  }
+  .pin1{
+      margin-top: 200px;
+    text-align: center;
+  }
+.jkl{
+    font-size: 15px;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-left: 40px;
+}
+.jkl h3{
+    font-size: 30px;
+    width: 600px;
+    padding-top:50px ;
+}
+.jkl p{
+    font-size: 20px;
+    width: 600px;
+    padding-top: 70px;
+}
+.jkl img{
+    margin-top: 80px;
+}
+.ins1{
+    font-size: 15px;
+    width: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 20px;
+}
+.min{
+    padding-top: 90px;
+   text-align: center;
+   
+
+}
+.point2{
+    font-size: 15px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding-left: 90px;
+    
+
+}
+.point2 p{
+  
+    width:300px;
+    }
+.point3{
+    font-size: 15px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    
+
+}
+.point4{
+    font-size: 16px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px; 
+    
+}
+.min1{
+    
+    margin-top: 200px;
+    text-align: center;
+}
+.meter{
+    display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 15px;
+  margin-left: 300px;
+  
+}
+.min2{
+  text-align: center;
+}
+.push1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:50px;
+  text-align: center;
+  
+}
+.push1 p{
+  width:300px;
+  padding-left: 150px;
+}
+.press{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:50px;
+  text-align: center;
+}
+.press p{
+  width:300px;
+  padding-left: 150px;
+}
+.pull{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:50px;
+  text-align: center;
+}
+.pull p{
+  width:300px;
+  padding-left: 150px;
+}
+.point{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:50px;
+  text-align: center;
+}
+.point p{
+  width: 300px;
+  padding-left: 150px;
+}
+.pole{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:50px;
+  text-align: center;
+}
+.pole p{
+  width:300px;
+  padding-left: 150px;
+}
+/* .present{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  padding-left: 350px;
+  width: 700px;
+
+  
+}
+.present1{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 50px;
+  margin-left: 350px;
+}
+.present1 p{
+  width: 300px;
+}
+.present2{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  margin-left: 350px;
+  width: 200px;
+}
+.present2 p{
+  width:350px;
+margin-left: -100px;
+}
+.present2 h4{
+  margin-left: -90px;
+}
+.present2 h5{
+  margin-left: -700px;
+}
+.present3{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  margin-left: 100px;
+  
+}
+
+
+.present4{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+  width: 500px;
+} */
+.rest1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 10px;
+  margin-left: 20px;
+  text-align: center;
+  
+}
+.rest2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+.min3{
+  text-align: center;
+}
+.image{
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  gap: 50px;
+  margin-left: 20px;
+}
+.image1{
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  gap: 50px;
+  margin-left: 20px;
+}
+.min4{
+  text-align: center;
+}
+.clint{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  gap: 50px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 580px) {
+  .clint{
+    display: grid;
+    grid-template-columns:   1fr ;
+    gap:20px;
+  }
+  .min4{
+    text-align: start;
+  }
+  .image1{
+    display: grid;
+    grid-template-columns: 1fr;
+    height:100px;
+    width:150px
+  }
+  .image{
+    display: grid;
+    grid-template-columns: 1fr ;
+    height:100px;
+    width: 150px;
+  }
+  .min3{
+    text-align: start;
+  }
+  .rest2{
+    display: grid;
+    grid-template-columns:  1fr ;
+    margin-left: 60px;
+    background: black;
+    position: relative;
+    bottom: 2;
+    left: 2;
+    height: 100%;
+    width: 1px;
+  }
+  ul{
+    display: none;
+  }
+  .block1 a img{
+    width: 300px;
+  }
+  .rest1{
+    display: grid;
+    grid-template-columns:  1fr;
+    margin-left: 60px;
+    background: black;
+    position: relative;
+    bottom: 1;
+    left: 1;
+    height: 100%;
+    width: 1px;
+   }
+  .pole p{
+    width:100px;
+    padding-left: 0px;
+  }
+  .pole{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: start;
+
+  }
+  .point p{
+    width:100px;
+    padding-left: 0px;
+  }
+  .point{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: start;
+  }
+  .pull p{
+    width:100px;
+    padding-left: 0px;
+
+  }
+  .pull{
+    display: grid;
+    grid-template-columns: 1fr;
+     text-align: start;
+  }
+  .press p{
+    width:100px;
+    padding-left: 0px;
+  }
+  .press{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: start;
+  }
+  .push1 p{
+    width:100px;
+    padding-left: 0px;
+  }
+  .push1{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: start;
+  }
+  .min2{
+    text-align: start;
+  }
+  .meter{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+  }
+  .min1{
+    text-align: start;
+  }
+  .point4{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .point3{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .point2{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0px;
+  }
+  .min{
+    text-align: start;
+  }
+  .ins1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+  }
+  .aboutimg{
+    display: none;
+  }
+  .jkl h3{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 10px;
+    width: 200px;
+    padding-top:50px ;
+}
+.jkl p{
+  display: grid;
+    grid-template-columns: 1fr;
+    font-size: 10px;
+    width: 200px;
+    padding-top: 70px;
+}
+  .jkl{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    width:300px;
+  }
+  .block1{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .pin1{
+    text-align: start;
+  }
+  .won1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+    position: relative;
+    left: 0px;
+    font-size: 10px;
+    color: rgb(1, 8, 14);
+  }
+  .won1 h1{
+    font-size: 15px;
+    margin-right: 300px;
+  }
+  .won1 button{
+    margin-right: 290px;
+    width: 200px;
+  }
+  .block1 img{
+    display: grid;
+    grid-template-columns: 1fr;
+    height:400px;
+    width:-100px;
+  }
+
+}

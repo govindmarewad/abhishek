@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="astudio.css" />
+    <style>
+      * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {hori:baseline;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+      .text-center{
+  text-align: center ;
+  display: grid;
+
+}
+.area1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.btn1{
+  display: flex;
+  padding:2rem;
+  justify-content:center;
+ 
+}
+.center{
+  position: absolute;
+   top: 450%;
+   left: 45%;
+   font-weight: bold;
+   font-size: 2.5rem;
+}
+.center1{
+  position:absolute ;
+  top: 470%;
+  left:25% ;
+  font-weight: bolder;
+  font-size: 2.1rem ;
+}
+.center2{
+  position:absolute ;
+  top: 470%;
+  left:65% ;
+  font-weight: bolder;
+  font-size: 2.1rem;
+}
+.img{
+  opacity: 0.4;
+}
+    </style>
+    
+    
+</head>
+<body>
+
+    <nav>
+      <ul>
+        <a href="">
+          <img src="https://cdn.pixabay.com/photo/2017/03/19/20/19/ball-2157465__340.png" height="70" width="70"
+            alt="" /></a>
+            
+      </ul>
+      <ul>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact Us</a>
+        <a href="">Gallary</a>
+        <a href=""><button>LogIn</button></a>
+      </ul>
+         
+         
+      </nav>
+      <header><div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://demos.onepagelove.com/html/ristorante/images/slider1.jpg" height="800" width="1200">
+          <div class="text">Welcome!</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://demos.onepagelove.com/html/ristorante/images/slider3.jpg" height="800" width="1200">
+          <div class="text">Selected Products</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://demos.onepagelove.com/html/ristorante/images/slider2.jpg" height="800" width="1200">
+          <div class="text">Traditional Italian Cuisine</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
+        <div class="block1">
+          <a href="">
+            <img src="https://demos.onepagelove.com/html/ristorante/images/slider2.jpg" height="800" width="1200"
+              alt="" /></a>
+              
+                <h1>Traditional Italian Cuisine</h1>
+                
+                  
+        </div>
+        
+   
+     </header>
+
+     <div>
+      <h2>~ Restaurant ~</h2>
+     </div>
+     <div class="block1">
+       <div>
+         <h1>Location</h1>
+         <p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+         <h1>A Unique Experience</h1>
+         <p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+        </div>
+      
+     <div>
+       <img src="https://demos.onepagelove.com/html/ristorante/images/location.jpg" height="300" width="500">
+     </div>
+     </div>
+     <div class="block2">
+       <div>
+         <img src="https://demos.onepagelove.com/html/ristorante/images/cuisine.jpg" height="300" width="500">
+       </div>
+       <div>
+         <h1>Cuisine</h1>
+         <p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+         <h1>A Unique Experience</h1>
+         <p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.
+
+        </p>
+        </div>
+        
+
+     </div>
+     <div><h3>~ Menu ~</h3></div>
+     <div class="block3">
+       <div>
+         <img src="https://demos.onepagelove.com/html/ristorante/images/meat-menu.jpg" height="200" width="300">
+       </div>
+       <div><h4>~ Meat Menu ~</h4>
+        <li>Bocconcini di carne in nido di sfoglia</li>
+        <li>Bruschette con maiale al curry</li>
+        <li>Uova al prosciutto</li>
+        <li>Vitello tonnato</li>
+        <li>Fesa di tacchino marinata con olive</li>
+      </div>
+     </div>
+     <div class="block4">
+       <div>
+         <img src="https://demos.onepagelove.com/html/ristorante/images/fish-menu.jpg " height="200" width="300">
+
+       </div>
+       <div>
+         <h1>~ Fish Menu ~</h1>
+         <li>Carpaccio di polpo</li>
+         <li>Cozze al verde</li>
+         <li>Cocktail di gamberi</li>
+         <li>Risotto alla crema di scampi
+        </li>
+         <li>Ravioli di pesce con crema di scampi</li>
+         
+       </div>
+     </div>
+     <div class="block5">
+       <div>
+         <img src="https://demos.onepagelove.com/html/ristorante/images/menu-vegetarian.jpg" height="200" width="300">
+       </div>
+       <div>
+         <h1>~ Vegetarian Menu ~</h1>
+         <li>Parmigiana di melanzane</li>
+         <li>Strudel con ricotta e spinaci</li>
+         <li>Polpette di spinaci e ricotta</li>
+         <li>Frittata di patate al forno</li>
+         <li>Spaghetti con le polpettine vegetariane</li>
+         
+       </div>
+     </div>
+     <div><h5>~ Reservation ~</h5>
+      <center>
+        <div class=".block6">
+          <div>
+            
+            <img class="img" src="https://demos.onepagelove.com/html/ristorante/images/reserve.jpg" height="700" width="900">
+            <div class="caption center">Timetables</div>
+            <div class="center1">
+              Lunch<br>
+              12:00 - 15:00<br>
+              </div>
+              <div class="center2">
+                Dinner<br>
+               19:30 - 23:30<br>
+              </div>
+          </div>
+          
+        </div>
+        </center>
+    </div>
+    <!-- <div class="form">
+    <form action="" method="get">
+      <div><h1>Reserve</h1></div><div><h2>Details</h2></div>
+      
+      <div>
+        <label for="inputDate">Date</label>
+        <input type="date"  placeholder="Data gg/mm/aaaa">
+        
+<label for="name">Name:</label>
+        <input type="text" name="text"  placeholder="name"   required>
+      </div><br><br>
+      <div>
+        <label for="inputTime"> Timetables</label>
+        <input type="time"  placeholder="Timetables">
+        Email Id: <input type="email"  name="email"/><br><br>
+      </div><br><br>
+      <div>
+        <label for="inputNumber"> Number of Guests</label>
+        <input type="number" placeholder="Number of Guests">
+        Phone No:<input type="text" name="phone" size="10">
+      </div><br><br>
+      <div>
+        <label for="inputComment"> Further requests</label>
+        <textarea  placeholder="Further requests"></textarea>
+      </div><br>
+      <div class="form-example">
+        <input type="submit" value="Reserve">
+       
+      </div>
+
+    </form>
+    </div> -->
+    <form action="">
+      <div class="form">
+        <div><h1>Reserve</h1></div> <div><h2>Details</h2></div>
+        <input type="date">
+        <input type="text" name="text" placeholder="Name">
+        <input type="time">
+        <input type="email" name="email" placeholder="Email">
+        <input type="number" placeholder="Number of Guests">
+        <input type="text"name="phone" size="10" placeholder="Phone No">
+        <textarea class="area1" cols="15" rows="10" placeholder="Address"></textarea>
+
+      </div>
+    </form><br>
+    <div class="btn1">
+      <button type="submit" class="btn-btn-secondary" btn-block>Reserve</button>
+    </div>
+    <center>
+    <div class="map1">
+      <h1>~ Our Location ~</h1>
+      </div>
+      <div>
+      <img src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg" height="500" width="900">
+  </div>
+  </center>
+  <div>
+    <p class="text-center">Follow us: <a class="social-icon" href="https://www.facebook.com/rubiktechnologiesShpk/"><i class="fab fa-facebook"></i></a> <a class="social-icon" href="https://www.instagram.com/rubiktechnologies/"><i class="fab fa-instagram"></i></a></p>
+  </div>
+</body>
+</html>
